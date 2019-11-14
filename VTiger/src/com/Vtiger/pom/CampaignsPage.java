@@ -75,7 +75,7 @@ public class CampaignsPage
 	}
 	@FindBy(xpath ="//a[text()='Achieve']")
 	private WebElement cname;
-	@FindBy(xpath="//td[@width='2%']/input[@id='55']")
+	@FindBy(xpath="//td[@width='2%']/input[@id='56']")
 	private WebElement checktoDel;
 	@FindBy(xpath="//td/a/img[@title='Create Campaign...']")
 	private WebElement plus;
