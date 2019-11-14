@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Campaign name matches]]>
+    </line>
+    <line>
+      <![CDATA[testquickCreateCampaign is pass]]>
+    </line>
+    <line>
+      <![CDATA[Enter name for campaign]]>
+    </line>
+    <line>
+      <![CDATA[testquickCreateCampaignwithoutname is pass]]>
+    </line>
+    <line>
+      <![CDATA[Alert message text matches is as expected]]>
+    </line>
+    <line>
+      <![CDATA[testquickCreateCampaignwithoutnameAlertMessage is pass]]>
+    </line>
+    <line>
+      <![CDATA[Campaigns starting with letter A is displayed]]>
+    </line>
+    <line>
+      <![CDATA[testsearcgCampaignwithletterA is pass]]>
+    </line>
+    <line>
+      <![CDATA[Campaigns starting with letter E is displayed]]>
+    </line>
+    <line>
+      <![CDATA[testsearcgCampaignwithletterE is pass]]>
+    </line>
+    <line>
+      <![CDATA[Search result verified]]>
+    </line>
+    <line>
+      <![CDATA[testsearcgCampaign is pass]]>
+    </line>
+    <line>
+      <![CDATA[deleteCampaignAlertAppearsis fail]]>
+    </line>
+    <line>
+      <![CDATA[Campaign name matches]]>
+    </line>
+    <line>
+      <![CDATA[createCampaignbyNmae is pass]]>
+    </line>
+    <line>
+      <![CDATA[Search result verified]]>
+    </line>
+    <line>
+      <![CDATA[searchCampaignbyName is pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="235008" started-at="2019-11-14T17:25:14 IST" finished-at="2019-11-14T17:29:09 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="235008" started-at="2019-11-14T17:25:14 IST" finished-at="2019-11-14T17:29:09 IST">
+      <class name="com.Vtiger.test.TestQuickCreateCampaign">
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="5404" started-at="2019-11-14T17:25:14 IST" finished-at="2019-11-14T17:25:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="testquickCreateCampaign()[pri:1, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="testquickCreateCampaign" duration-ms="12249" started-at="2019-11-14T17:25:19 IST" finished-at="2019-11-14T17:25:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaign name matches]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testquickCreateCampaign -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="102" started-at="2019-11-14T17:25:32 IST" finished-at="2019-11-14T17:25:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testquickCreateCampaign status=SUCCESS method=TestQuickCreateCampaign.testquickCreateCampaign()[pri:1, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output=Campaign name matches]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testquickCreateCampaign is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="5090" started-at="2019-11-14T17:25:32 IST" finished-at="2019-11-14T17:25:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="testquickCreateCampaignwithoutname()[pri:2, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="testquickCreateCampaignwithoutname" duration-ms="14773" started-at="2019-11-14T17:25:37 IST" finished-at="2019-11-14T17:25:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter name for campaign]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testquickCreateCampaignwithoutname -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="126" started-at="2019-11-14T17:25:52 IST" finished-at="2019-11-14T17:25:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testquickCreateCampaignwithoutname status=SUCCESS method=TestQuickCreateCampaign.testquickCreateCampaignwithoutname()[pri:2, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output=Enter name for campaign]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testquickCreateCampaignwithoutname is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="4554" started-at="2019-11-14T17:25:52 IST" finished-at="2019-11-14T17:25:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="testquickCreateCampaignwithoutnameAlertMessage()[pri:3, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="testquickCreateCampaignwithoutnameAlertMessage" duration-ms="16481" started-at="2019-11-14T17:25:56 IST" finished-at="2019-11-14T17:26:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Alert message text matches is as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testquickCreateCampaignwithoutnameAlertMessage -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="148" started-at="2019-11-14T17:26:13 IST" finished-at="2019-11-14T17:26:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testquickCreateCampaignwithoutnameAlertMessage status=SUCCESS method=TestQuickCreateCampaign.testquickCreateCampaignwithoutnameAlertMessage()[pri:3, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output=Alert message text matches is as expected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testquickCreateCampaignwithoutnameAlertMessage is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="4326" started-at="2019-11-14T17:26:13 IST" finished-at="2019-11-14T17:26:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="testsearcgCampaignwithletterA()[pri:4, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="testsearcgCampaignwithletterA" duration-ms="6919" started-at="2019-11-14T17:26:17 IST" finished-at="2019-11-14T17:26:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaigns starting with letter A is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testsearcgCampaignwithletterA -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="2145" started-at="2019-11-14T17:26:24 IST" finished-at="2019-11-14T17:26:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testsearcgCampaignwithletterA status=SUCCESS method=TestQuickCreateCampaign.testsearcgCampaignwithletterA()[pri:4, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output=Campaigns starting with letter A is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testsearcgCampaignwithletterA is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="4482" started-at="2019-11-14T17:26:26 IST" finished-at="2019-11-14T17:26:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="testsearcgCampaignwithletterE()[pri:5, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="testsearcgCampaignwithletterE" duration-ms="12874" started-at="2019-11-14T17:26:31 IST" finished-at="2019-11-14T17:26:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaigns starting with letter E is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testsearcgCampaignwithletterE -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="2390" started-at="2019-11-14T17:26:44 IST" finished-at="2019-11-14T17:26:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testsearcgCampaignwithletterE status=SUCCESS method=TestQuickCreateCampaign.testsearcgCampaignwithletterE()[pri:5, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output=Campaigns starting with letter E is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testsearcgCampaignwithletterE is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="4123" started-at="2019-11-14T17:26:46 IST" finished-at="2019-11-14T17:26:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="testsearcgCampaign()[pri:6, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="testsearcgCampaign" duration-ms="20972" started-at="2019-11-14T17:26:50 IST" finished-at="2019-11-14T17:27:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Search result verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testsearcgCampaign -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="104" started-at="2019-11-14T17:27:11 IST" finished-at="2019-11-14T17:27:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testsearcgCampaign status=SUCCESS method=TestQuickCreateCampaign.testsearcgCampaign()[pri:6, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output=Search result verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testsearcgCampaign is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="4814" started-at="2019-11-14T17:27:11 IST" finished-at="2019-11-14T17:27:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="FAIL" signature="deleteCampaignAlertAppears()[pri:7, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="deleteCampaignAlertAppears" duration-ms="34564" started-at="2019-11-14T17:27:16 IST" finished-at="2019-11-14T17:27:51 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[@width='2%']/input[@id='43']"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-V41L6B2', ip: '192.168.43.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8e40eef78991525461b3bb4a4581fa05
+*** Element info: {Using=xpath, value=//td[@width='2%']/input[@id='43']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@width='2%']/input[@id='43']"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-V41L6B2', ip: '192.168.43.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8e40eef78991525461b3bb4a4581fa05
+*** Element info: {Using=xpath, value=//td[@width='2%']/input[@id='43']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.Vtiger.pom.CampaignsPage.tickcamptodel(CampaignsPage.java:102)
+at com.Vtiger.test.TestQuickCreateCampaign.deleteCampaignAlertAppears(TestQuickCreateCampaign.java:115)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCampaignAlertAppears -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="2780" started-at="2019-11-14T17:27:51 IST" finished-at="2019-11-14T17:27:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCampaignAlertAppears status=FAILURE method=TestQuickCreateCampaign.deleteCampaignAlertAppears()[pri:7, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[deleteCampaignAlertAppearsis fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="4783" started-at="2019-11-14T17:27:53 IST" finished-at="2019-11-14T17:27:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="createCampaignbyNmae()[pri:8, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="createCampaignbyNmae" duration-ms="18896" started-at="2019-11-14T17:27:58 IST" finished-at="2019-11-14T17:28:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaign name matches]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaignbyNmae -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="114" started-at="2019-11-14T17:28:17 IST" finished-at="2019-11-14T17:28:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCampaignbyNmae status=SUCCESS method=TestQuickCreateCampaign.createCampaignbyNmae()[pri:8, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output=Campaign name matches]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createCampaignbyNmae is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="beforeM" is-config="true" duration-ms="4326" started-at="2019-11-14T17:28:17 IST" finished-at="2019-11-14T17:28:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="searchCampaignbyName()[pri:9, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="searchCampaignbyName" duration-ms="45006" started-at="2019-11-14T17:28:22 IST" finished-at="2019-11-14T17:29:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Search result verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCampaignbyName -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad]" name="afterM" is-config="true" duration-ms="2389" started-at="2019-11-14T17:29:07 IST" finished-at="2019-11-14T17:29:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchCampaignbyName status=SUCCESS method=TestQuickCreateCampaign.searchCampaignbyName()[pri:9, instance:com.Vtiger.test.TestQuickCreateCampaign@247bddad] output=Search result verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[searchCampaignbyName is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+      </class> <!-- com.Vtiger.test.TestQuickCreateCampaign -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
